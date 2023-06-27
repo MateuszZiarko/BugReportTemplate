@@ -8,11 +8,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        T
+        A clear and concise description of what the bug is
   - type: input
     id: priority
     attributes:
       label: Priority
+      description: What is the impact of this bug on the user, how critical is to fix? P0, P1 .. P4 [Reference - Google Issue tracker priority levels](https://developers.google.com/issue-tracker/concepts/issues#priority)
+      placeholder: 
+    validations:
+    - type: input
+    id: where to find
+    attributes:
+      label: Where to find
       description: What is the impact of this bug on the user, how critical is to fix? P0, P1 .. P4 [Reference - Google Issue tracker priority levels](https://developers.google.com/issue-tracker/concepts/issues#priority)
       placeholder: 
     validations:
@@ -32,8 +39,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
+        - 1.0.2 (Chrome)
         - 1.0.3 (Edge)
+        - 0.3.5 (Firefox)
     validations:
       required: true
   - type: dropdown
