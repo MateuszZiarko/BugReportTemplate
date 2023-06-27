@@ -40,7 +40,7 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Chrome)
+        - 0.3.5 (Chrome)
         - 1.0.3 (Edge)
         - 0.3.5 (Firefox)
     validations:
