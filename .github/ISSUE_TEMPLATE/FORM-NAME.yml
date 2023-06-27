@@ -10,6 +10,12 @@ body:
       value: |
         A clear and concise description of what the bug is
   - type: input
+    id: where to find
+    attributes:
+      label: where to find
+      description: If applicable, add screenshots/video to help explain your problem. Remember to mark the area in the application thats impacted.
+      placeholder: 
+  - type: input
     id: priority
     attributes:
       label: Priority
