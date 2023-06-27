@@ -10,7 +10,6 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    body:
     id: 
     attributes:
       label: Priority
@@ -50,6 +49,7 @@ body:
         - Mobile IOS
         - Mobile Android
   - type: textarea
+    body:
     id: logs
     attributes:
       label: Relevant log output
