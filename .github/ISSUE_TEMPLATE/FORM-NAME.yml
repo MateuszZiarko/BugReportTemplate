@@ -8,7 +8,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        
   - type: input
     id: priority
     attributes:
