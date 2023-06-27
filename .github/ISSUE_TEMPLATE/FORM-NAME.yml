@@ -13,7 +13,7 @@ body:
     id: find
     attributes:
       label: Where to find
-      description: If applicable, add screenshots/video to help explain your problem. Remember to mark the area in the application thats impacted.
+      description: A clear and concise description of where to find a bug.
       placeholder: 
   - type: input
     id: priority
