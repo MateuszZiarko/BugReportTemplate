@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "mobile", "extension", "small fix", "important"]
 assignees:
-  - octocat
+  - Mateusz
 body:
   - type: markdown
     attributes:
