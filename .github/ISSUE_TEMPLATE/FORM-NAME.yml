@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: priority
+    id: 
     attributes:
       label: Priority
       description: What is the impact of this bug on the user, how critical is to fix? P0, P1 .. P4 [Reference - Google Issue tracker priority levels link](https://developers.google.com/issue-tracker/concepts/issues#priority)
@@ -55,7 +55,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
-    id: attachments
+    id: 
     attributes:
       label: Screenshots/Video
       description: If applicable, add screenshots/video to help explain your problem. Remember to mark the area in the application thats impacted.
