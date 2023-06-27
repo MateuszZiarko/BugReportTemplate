@@ -15,6 +15,8 @@ body:
       label: Where to find
       description: A clear and concise description of where to find a bug.
       placeholder: 
+    validations:
+      required: true
   - type: input
     id: priority
     attributes:
@@ -22,6 +24,7 @@ body:
       description: What is the impact of this bug on the user, how critical is to fix? P0, P1 .. P4 [Reference - Google Issue tracker priority levels](https://developers.google.com/issue-tracker/concepts/issues#priority)
       placeholder: 
     validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
