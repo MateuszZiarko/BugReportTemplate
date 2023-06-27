@@ -55,7 +55,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - body:
-    type: textarea
+    type: markdown
     id: 
     attributes:
       label: Screenshots/Video
