@@ -51,6 +51,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+        - Brave
         - Mobile IOS
         - Mobile Android
   - type: textarea
